@@ -1,0 +1,13 @@
+  224  ll
+  225  cat newfile.txt 
+  226  echo "adding line 2" > newfile.txt
+  227  cat newfile.txt 
+  228  echo "adding line 3" >> newfile.txt
+  229  cat newfile.txt 
+  230  Name="Nagendra"
+  231  echo $Name
+  232  echo "My NAME IS : "$Name
+  233  echo "My NAME IS : "$Name >> newfile.txt 
+  234  cat newfile.txt 
+  235  echo "My NAME IS : "$Name > newfile.txt 
+
